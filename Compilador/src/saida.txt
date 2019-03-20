@@ -181,6 +181,75 @@ String válida!!!
 x=3.1/10.1;
 String válida!!!
 
+x=3.1/10.1.2;
+String invalida!!! Estado 27
+
 x=   3.1   /   10.1 / + 23;
 String válida!!!
+
+1x 2a = ; //;
+String invalida!!! Estado 0
+
+1x =2;
+String invalida!!! Estado 0
+
+x =2a;
+String invalida!!! Estado 4
+
+   ;
+String invalida!!! Estado 0
+
+=x;
+String invalida!!! Estado 0
+
+a int = 2;
+String invalida!!! Possui palavra reservada!
+
+a 2 =x;
+String invalida!!! Estado 2
+
+///a=2;
+String válida!!!
+
+///*/a=2;//
+String válida!!!
+
+*a=2;
+String invalida!!! Estado 0
+
+y   /a=2;
+String invalida!!! Estado 10
+
+x + b + c = 2;
+String invalida!!! Estado 2
+
+x =2x+a+c+4;
+String invalida!!! Estado 4
+
+x=x2+a+c+4;
+String válida!!!
+
+x=2-+2;
+String válida!!!
+
+--x=5;
+String invalida!!! Estado 0
+
+x=--5;
+String invalida!!! Estado 24
+
+x=-5;
+String válida!!!
+
+x=5-;
+String invalida!!! Estado 27
+
+x=+5 + +5;
+String válida!!!
+
+x/ =x5;
+String invalida!!! Estado 10
+
+x=5/;
+String invalida!!! Estado 16
 
